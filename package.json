@@ -1,0 +1,29 @@
+{
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "description": "# Домашнє завдання 1 Console Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index",
+    "dev": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruslan-Dolibskyi/goit-node-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruslan-Dolibskyi/goit-node-cli/issues"
+  },
+  "homepage": "https://github.com/Ruslan-Dolibskyi/goit-node-cli#readme",
+  "dependencies": {
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
